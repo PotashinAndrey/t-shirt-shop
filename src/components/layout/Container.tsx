@@ -1,9 +1,12 @@
-import type { FC, ReactNode } from "react"
+import type { FC, ReactNode } from "react";
 
-export const Container: FC<{children: ReactNode}> = ({children}) => {
-
-    return <>
-        {children}
-        container
-    </>
+interface ContainerProps {
+  children: ReactNode;
+  className?: string;
 }
+
+export const Container = ({ children, className = "" }: ContainerProps) => {
+  return (
+    <div className={`container mx-auto px-4 ${className}`}>{children}</div>
+  );
+};
