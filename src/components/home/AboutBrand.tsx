@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export const AboutBrand = () => {
     return (
-      <section className="about-brand bg-white py-16">
+      <section className="about-brand bg-white py-16 mb-16">
         <div className="container mx-auto px-4 grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
           <div>
             <h2 className="text-3xl md:text-4xl font-bold mb-6">О нашем бренде</h2>
