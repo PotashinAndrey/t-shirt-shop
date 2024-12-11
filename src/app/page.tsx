@@ -1,7 +1,8 @@
-import Image from "next/image";
+"use server";
+
 import { Hero, PopularCategories } from "@/components/home";
 
-export default function Home() {
+export default async function Home() {
   return (
     <div className="">
       <main className="">
