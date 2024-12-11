@@ -1,6 +1,11 @@
 "use server";
 
-import { Hero, PopularCategories, SalesDiscounts } from "@/components/home";
+import {
+  Hero,
+  PopularCategories,
+  SalesDiscounts,
+  WhyChooseUs,
+} from "@/components/home";
 import NewArrivals from "@/components/home/NewArrivals";
 
 export default async function Home() {
@@ -11,6 +16,7 @@ export default async function Home() {
         <PopularCategories />
         <SalesDiscounts />
         <NewArrivals />
+        <WhyChooseUs />
       </main>
     </div>
   );
