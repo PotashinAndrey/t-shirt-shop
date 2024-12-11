@@ -1,6 +1,7 @@
 "use server";
 
 import {
+  AboutBrand,
   Hero,
   PopularCategories,
   SalesDiscounts,
@@ -17,6 +18,7 @@ export default async function Home() {
         <SalesDiscounts />
         <NewArrivals />
         <WhyChooseUs />
+        <AboutBrand />
       </main>
     </div>
   );
