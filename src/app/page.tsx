@@ -1,6 +1,6 @@
 "use server";
 
-import { Hero, PopularCategories } from "@/components/home";
+import { Hero, PopularCategories, SalesDiscounts } from "@/components/home";
 
 export default async function Home() {
   return (
@@ -8,6 +8,7 @@ export default async function Home() {
       <main className="">
         <Hero />
         <PopularCategories />
+        <SalesDiscounts />
       </main>
     </div>
   );
