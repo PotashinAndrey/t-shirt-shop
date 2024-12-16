@@ -20,12 +20,13 @@ const HoodiePage = () => {
           <h1 className="text-3xl font-bold mb-4">Стильное худи</h1>
           <p className="text-gray-700 leading-relaxed mb-6">
             Наше худи - это сочетание комфорта, качества и стиля. Изготовлено из
-            высококачественного материала, идеально подходящего для повседневной носки.
+            высококачественного материала, идеально подходящего для повседневной
+            носки.
           </p>
           <p className="text-gray-700 font-semibold mb-4">Цена: 3,999 руб.</p>
 
           {/* Add to Cart Button */}
-          <button className="bg-blue-600 text-white px-6 py-2 rounded hover:bg-blue-700">
+          <button className="block bg-blue-600 text-center text-white px-6 py-2 rounded hover:bg-blue-700">
             Добавить в корзину
           </button>
         </div>
